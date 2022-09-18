@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarritoFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar carrito"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:id="@+id/txtEditar"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numPos"
+        android:layout_below="@id/txtEditar"
+        android:hint="Poner el número de lista"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obtener registro"
+        android:layout_below="@id/numPos"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnObtener"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="El producto"
+        android:enabled="false"
+        android:layout_below="@id/btnObtener"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editProd"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="El precio"
+        android:enabled="false"
+        android:layout_below="@id/editProd"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editPrice"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar registro"
+        android:layout_below="@id/editPrice"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnGuardar"
+        android:enabled="false"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Borrar registro"
+        android:layout_below="@id/btnGuardar"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnBorrar"
+        android:enabled="false"
+        />
+
+</RelativeLayout>

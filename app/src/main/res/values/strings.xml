@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">LADM_U1_Practica2_AlmacenamientoArchivosPlanos</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Página Principal</string>
+    <string name="menu_gallery">Lista Productos</string>
+    <string name="menu_slideshow">Pedidos</string>
+    <string name="carrito">Carrito</string>
+    <string name="Anadir">Añadir</string>
+    <string name="Borrar">Borrar</string>
+    <string name="Actualizar">Actualizar</string>
+    <string name="Mostrar">Mostrar</string>
+    <string name="ProdListShow">Mostar lista de productos</string>
+    <string name="checkout">Pagar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Lista de productos-->
+    <array name="ListaProductos">
+        <item>Papel de Baño $20</item>
+        <item>Manzana $5</item>
+        <item>Agua embotellada $50</item>
+        <item>Camiseta Negra $25</item>
+        <item>Leche $30</item>
+        <item>Jamón $35</item>
+        <item>Queso $28</item>
+        <item>Cepillo de Dientes $15</item>
+        <item>Refresco $15</item>
+        <item>Pan $30</item>
+    </array>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/poly"
+    android:padding="20dp"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="¡Bienvenido a Walmart!"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginBottom="20dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/walmartbanner"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Utilice el menu principal para navegar la tienda, ver productos, manejar su carrito y pedir sus productos"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="italic|bold"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:layout_marginBottom="30dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnMainSalir"
+        />
+
+</LinearLayout>
